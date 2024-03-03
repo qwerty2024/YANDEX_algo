@@ -6,9 +6,9 @@ using namespace std;
 
 int main()
 {
-    double min_coef = 1.458;
-    double max_coef = 1.764;
-    double step = 0.000001;
+    double min_coef = 1.45;
+    double max_coef = 1.75;
+    double step = 0.0001;
 
     vector<int> res;
 
@@ -27,7 +27,7 @@ int main()
 
     //for (double coef = 1; coef <= 1.1; coef += 0.1)
     //for (double coef = min_coef; coef <= max_coef; coef += step)
-    
+
     for (double coef = min_coef; coef <= max_coef; coef += step)
     {
         //cout << coef << endl;//"  " << coef1 << endl;
