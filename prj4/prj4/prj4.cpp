@@ -198,12 +198,12 @@ int main()
 
     std::cout << res << std::endl;
 
-    //for (int i = 0; i < N; i++)
-    //{
-    //    for (int j = 0; j < N; j++)
-    //        std::cout << tmp[i][j] << " ";
-    //    std::cout << std::endl;
-    //}
+    for (int i = 0; i < N; i++)
+    {
+        for (int j = 0; j < N; j++)
+            std::cout << tmp[i][j] << " ";
+        std::cout << std::endl;
+    }
 
 
     for (int i = 0; i < N; i++)
