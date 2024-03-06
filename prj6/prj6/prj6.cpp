@@ -73,11 +73,11 @@ int main()
         {
             if (vec[i] % 2 == 0)
             {
-                res += 43;
+                res += 43; // +
             }
             else
             {
-                res += 120;
+                res += 120; // x
             }
         }
     }
@@ -85,4 +85,38 @@ int main()
     cout << res << endl;
 
     return 0;
+}
+
+
+
+
+
+
+
+
+
+int flag = IsOdd(numbers[0]);
+
+for (int i = 1; i < n; i++) {
+    if (flag == 0) {
+        if (IsOdd(numbers[i]) == 0) {
+            Console.Write('x');
+        }
+        else {
+            flag = 1;
+            Console.Write('+');
+        }
+    }
+    else if (flag == 1) {
+        if (IsOdd(numbers[i]) == 1) {
+            Console.Write('x');
+        }
+        else {
+            flag = 2;
+            Console.Write('+');
+        }
+    }
+    else if (flag == 2) {
+        Console.Write('x');
+    }
 }
