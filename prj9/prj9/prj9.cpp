@@ -237,19 +237,19 @@ int main()
 
 //    my_year.print();
 
-//    cout << "DAYS: ";
-//    for (int i = 0; i < 7; i++)
-//    {
-//        cout << vec_all_day_in_weak[i] << " ";
-//    }
-//    cout << endl;
-//    
-//    cout << "WONDER DAYS: ";
-//    for (int i = 0; i < 7; i++)
-//    {
-//        cout << vec_wonder_day_in_weak[i] << " ";
-//    }
-//    cout << endl;
+    cout << "DAYS: ";
+    for (int i = 0; i < 7; i++)
+    {
+        cout << vec_all_day_in_weak[i] << " ";
+    }
+    cout << endl;
+    
+    cout << "WONDER DAYS: ";
+    for (int i = 0; i < 7; i++)
+    {
+        cout << vec_wonder_day_in_weak[i] << " ";
+    }
+    cout << endl;
 
     for (int i = 0; i < 7; i++)
     {
@@ -286,6 +286,182 @@ int main()
 8 July
 15 July
 Tuesday
+
+
+170
+1904
+31 December
+27 December
+23 December
+22 December
+20 December
+19 December
+16 December
+15 December
+13 December
+12 December
+11 December
+8 December
+6 December
+4 December
+1 December
+28 November
+27 November
+26 November
+25 November
+23 November
+21 November
+20 November
+19 November
+18 November
+16 November
+12 November
+7 November
+6 November
+3 November
+1 November
+31 October
+30 October
+27 October
+26 October
+23 October
+18 October
+17 October
+14 October
+10 October
+9 October
+8 October
+4 October
+2 October
+1 October
+29 September
+28 September
+24 September
+22 September
+19 September
+17 September
+15 September
+13 September
+12 September
+3 September
+1 September
+29 August
+28 August
+23 August
+18 August
+16 August
+14 August
+13 August
+10 August
+8 August
+2 August
+30 July
+28 July
+26 July
+21 July
+18 July
+16 July
+14 July
+13 July
+12 July
+9 July
+8 July
+2 July
+30 June
+28 June
+26 June
+25 June
+22 June
+19 June
+18 June
+17 June
+16 June
+15 June
+14 June
+13 June
+11 June
+9 June
+8 June
+7 June
+30 May
+28 May
+27 May
+25 May
+23 May
+21 May
+20 May
+19 May
+18 May
+17 May
+16 May
+15 May
+12 May
+11 May
+10 May
+8 May
+3 May
+1 May
+30 April
+29 April
+28 April
+24 April
+21 April
+20 April
+18 April
+17 April
+12 April
+11 April
+10 April
+9 April
+7 April
+6 April
+5 April
+4 April
+3 April
+29 March
+28 March
+26 March
+22 March
+19 March
+14 March
+13 March
+12 March
+8 March
+6 March
+5 March
+3 March
+1 March
+29 February
+26 February
+25 February
+24 February
+21 February
+19 February
+16 February
+15 February
+14 February
+11 February
+8 February
+7 February
+5 February
+3 February
+2 February
+23 January
+21 January
+20 January
+19 January
+18 January
+16 January
+11 January
+10 January
+9 January
+7 January
+6 January
+3 January
+2 January
+1 January
+Friday
+
 */
     return 0;
 }
