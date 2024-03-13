@@ -94,29 +94,3 @@ int main()
 
 
 
-
-int flag = IsOdd(numbers[0]);
-
-for (int i = 1; i < n; i++) {
-    if (flag == 0) {
-        if (IsOdd(numbers[i]) == 0) {
-            Console.Write('x');
-        }
-        else {
-            flag = 1;
-            Console.Write('+');
-        }
-    }
-    else if (flag == 1) {
-        if (IsOdd(numbers[i]) == 1) {
-            Console.Write('x');
-        }
-        else {
-            flag = 2;
-            Console.Write('+');
-        }
-    }
-    else if (flag == 2) {
-        Console.Write('x');
-    }
-}
